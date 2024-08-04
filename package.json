@@ -1,0 +1,16 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "k6 run -e BASE_URL=https://localhost:7288 test.js" ,
+    "testAllEndPoints": "k6 run -e BASE_URL=https://localhost:7288 testAllEndpoint.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+     
+  }
+}
